@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - function to generate a random number
- * Return: 0
+ *main - function to generate a random number
+ *Return: 0
  */
 
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n - rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n < 0)
